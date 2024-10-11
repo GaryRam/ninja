@@ -122,7 +122,7 @@ console.log(index); */
 //<p> ${author}</p>
 //<span>This blog has ${likes} likes</span>`;
 
-let ninjas = ['shaun', 'ryu', 'chun-li'];
+//let ninjas = ['shaun', 'ryu', 'chun-li'];
 
 // ninjas[1] = 'ken';
 // console.log(ninjas[1]);
@@ -140,7 +140,72 @@ let ninjas = ['shaun', 'ryu', 'chun-li'];
 //let result = ninjas.join(',');
 //let result = ninjas.indexOf('chun-li');
 //let result = ninjas.concat(['ken', 'crystal']);
-let result = ninjas.push('ken');
-result = ninjas.pop();
+//let result = ninjas.push('ken');
+//result = ninjas.pop();
 
-console.log(result);
+//console.log(result);
+
+//let age = null;
+
+//console.log(age, age + 3, `the age is ${age}`);
+
+// booleans & comparisons
+//console.log(true, false, "true", "false");
+
+// methods can return booleans
+//let email = '126gramirez@frhsd.com';
+//let names = ['mario', 'luigi', 'toad'];
+
+//let result = email,includes('!');
+//let result = names.includes('bowser');
+
+//console.log(result)
+
+//comparison operators
+//let age = 25;
+
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age >= 20);
+// console.log(age <= 20);
+// console.log(age <= 25);
+// console.log(age >= 25);
+
+//let namee = 'shaun';
+
+//console.log(namee == 'shaun');
+//console.log(namee == 'Shaun');
+//console.log(namee > 'crystal');
+//console.log(namee > 'shaun');
+//console.log(namee > 'crystal');
+
+// let age = 25;
+
+// loose comparison (diiferent types can still be equal)
+
+// console.log(age == 25);
+// console.log(age == '25');
+// console.log(age != 25);
+// console.log(age != '25');
+
+//strict comparison (different types cannot be equal)
+
+// console.log(age === 25);
+// console.log(age === '25');
+// console.log(age !== 25);
+// console.log(age !== '25');
+
+// type coversion
+let score = '100';
+
+// score = Number(score);
+// console.log(score + 1);
+// console.log(typeof score);
+
+//let result = Number('hello);
+// let result = String(50)
+// let result = Boolean(0);
+let result = Boolean(' ');
+
+console.log(result, typeof result);
